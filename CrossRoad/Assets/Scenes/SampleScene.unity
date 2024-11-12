@@ -1978,7 +1978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93e00a900a0002d43a2000a6c77c507e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelCount: 1
+  levelCount: 50
   camera: {fileID: 1756540332}
   levelGenerator: {fileID: 69309621}
   pools:
