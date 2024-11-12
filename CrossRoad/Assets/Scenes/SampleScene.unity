@@ -167,8 +167,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bedceaa179d6f4a48b07e4b1fd500193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platform: []
-  height: []
+  platform:
+  - {fileID: 5624487866430846121, guid: 11522e05ae2f1b0478060cf1c2a89923, type: 3}
+  - {fileID: 2484013626767258509, guid: 96e757e6fc9f17945961e9827ee3435d, type: 3}
+  - {fileID: 8553655316307194689, guid: 7a072b589aab5904799138ab9b810546, type: 3}
+  - {fileID: 103817710221899284, guid: 806f778e5331d4d419a64eac2e304912, type: 3}
+  - {fileID: 272933826287800060, guid: dd6b8ba8358ce994691de4bb2eedb3e6, type: 3}
+  - {fileID: 5614008988164500496, guid: 6c1471b30e97d9d499711e084afa9217, type: 3}
+  height:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
 --- !u!1 &90481690
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,6 +344,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!198 &171488917 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 950675090830990556, guid: b878f9e2d66bfb24a95d144e9d158021, type: 3}
+  m_PrefabInstance: {fileID: 300797246}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &214296131
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,6 +507,10 @@ PrefabInstance:
       propertyPath: chick
       value: 
       objectReference: {fileID: 1225485361}
+    - target: {fileID: -9201927919565004308, guid: b878f9e2d66bfb24a95d144e9d158021, type: 3}
+      propertyPath: particle
+      value: 
+      objectReference: {fileID: 171488917}
     - target: {fileID: 4533179325393092635, guid: b878f9e2d66bfb24a95d144e9d158021, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1415,7 +1436,7 @@ GameObject:
   - component: {fileID: 1426885773}
   - component: {fileID: 1426885772}
   m_Layer: 5
-  m_Name: Tap to start playing
+  m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1488,7 +1509,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Tap to start playing!
+  m_Text: "\uC2DC\uC791 \uD574\uB77C(\uB204\uB974\uBA74 \uC2DC\uC791\uD55C\uB2E4)"
 --- !u!222 &1426885774
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1978,16 +1999,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93e00a900a0002d43a2000a6c77c507e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelCount: 50
+  levelCount: 1
   camera: {fileID: 1756540332}
   levelGenerator: {fileID: 69309621}
   pools:
-  - {fileID: 6697021391449117409, guid: 53224bf3215572440acae3be5dac3c4b, type: 3}
   - {fileID: 5541825096869117120, guid: 1f17f91d490b43e479d97ed01b90a4cd, type: 3}
   - {fileID: 4202660369284122244, guid: 7f47eea8b0edc7b4b9611209c427ea0a, type: 3}
   - {fileID: 6674851755258058479, guid: 322f875fb4b6f624aaa5bd40a7b09ebd, type: 3}
   - {fileID: 6748081453819220185, guid: e04173ad399769543b65333f9fe62d79, type: 3}
   - {fileID: 120285796292108244, guid: d294aac76cb551c409292254a36f5a33, type: 3}
+  - {fileID: 8968620076505366446, guid: 662cd0f0831c0c547bc96aba34eb2ee8, type: 3}
   - {fileID: 2674411296638316429, guid: 74d7d64f20032b0409455b3dbd16b914, type: 3}
   - {fileID: 4036831528541744134, guid: ca13960eeb10d0b428d14830a063900d, type: 3}
   - {fileID: 4871991563867421924, guid: c7b78e2ecd54f6341950a4475883f178, type: 3}

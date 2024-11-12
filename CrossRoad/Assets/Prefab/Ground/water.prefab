@@ -51,8 +51,12 @@ MonoBehaviour:
   goLeft: 0
   goRight: 0
   items: []
-  spawnersLeft: []
-  spawnersRight: []
+  spawnersLeft:
+  - {fileID: 6393099392763252620}
+  - {fileID: 7146581576313768292}
+  spawnersRight:
+  - {fileID: 7544739778396889057}
+  - {fileID: 9079538055211545312}
 --- !u!1 &5261752956335069162
 GameObject:
   m_ObjectHideFlags: 0

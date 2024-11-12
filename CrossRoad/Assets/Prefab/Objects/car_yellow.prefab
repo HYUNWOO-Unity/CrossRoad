@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 881b5684faa3a7444b78779be56c5262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 4
   moveDirection: 0
   parentOnTrigger: 1
   hitBoxOnTrigger: 1

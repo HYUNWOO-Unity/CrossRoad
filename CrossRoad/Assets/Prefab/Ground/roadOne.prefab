@@ -156,8 +156,10 @@ MonoBehaviour:
   goLeft: 0
   goRight: 0
   items: []
-  spawnersLeft: []
-  spawnersRight: []
+  spawnersLeft:
+  - {fileID: 6997676655305425264}
+  spawnersRight:
+  - {fileID: 4225443719480953918}
 --- !u!1 &1546584757775138787
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,6 +428,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goLeft: 0
   goRight: 0
-  items: []
-  spawnersLeft: []
-  spawnersRight: []
+  items:
+  - {fileID: 7663581105282328360, guid: e3498c4063f94a04f9e63eca06a48195, type: 3}
+  spawnersLeft:
+  - {fileID: 4391408760988111346}
+  spawnersRight:
+  - {fileID: 5863607082988156021}
