@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f93787f3c90219459afa72a1b8d93e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPos: {fileID: 0}
+  startPos: {fileID: 2526255445701215066}
   delayMin: 1.5
   delayMax: 5
   speedMin: 1
@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f93787f3c90219459afa72a1b8d93e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPos: {fileID: 0}
+  startPos: {fileID: 2526255445701215066}
   delayMin: 1.5
   delayMax: 5
   speedMin: 1
@@ -317,7 +317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f93787f3c90219459afa72a1b8d93e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPos: {fileID: 0}
+  startPos: {fileID: 2526255445701215066}
   delayMin: 1.5
   delayMax: 5
   speedMin: 1
@@ -372,7 +372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f93787f3c90219459afa72a1b8d93e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPos: {fileID: 0}
+  startPos: {fileID: 2526255445701215066}
   delayMin: 1.5
   delayMax: 5
   speedMin: 1
