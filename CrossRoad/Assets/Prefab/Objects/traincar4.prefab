@@ -422,7 +422,7 @@ MonoBehaviour:
   speed: 12
   moveDirection: 0
   parentOnTrigger: 1
-  hitBoxOnTrigger: 0
+  hitBoxOnTrigger: 1
   moverObject: {fileID: 4981131919817204012}
 --- !u!1 &5269738983432801317
 GameObject:

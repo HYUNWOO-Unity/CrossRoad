@@ -343,6 +343,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1368839952 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5497636445819775542, guid: 2a857f6aa4c8da94ead44e37eafe9ad8, type: 3}
+  m_PrefabInstance: {fileID: 5703520266982424359}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1756540328
 GameObject:
   m_ObjectHideFlags: 0
@@ -706,6 +711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 625489899294189299, guid: 2a857f6aa4c8da94ead44e37eafe9ad8, type: 3}
+      propertyPath: guiGameOver
+      value: 
+      objectReference: {fileID: 1368839952}
     - target: {fileID: 2907531029785407869, guid: 2a857f6aa4c8da94ead44e37eafe9ad8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

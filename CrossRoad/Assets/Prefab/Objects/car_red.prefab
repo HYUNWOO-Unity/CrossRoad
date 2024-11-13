@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  moveDirection: 0
+  moveDirection: 1
   parentOnTrigger: 1
   hitBoxOnTrigger: 1
   moverObject: {fileID: 3769514091455507393}

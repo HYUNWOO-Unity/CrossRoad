@@ -68,8 +68,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 881b5684faa3a7444b78779be56c5262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  moveDirection: 0
+  speed: 5
+  moveDirection: 1
   parentOnTrigger: 1
   hitBoxOnTrigger: 1
   moverObject: {fileID: 471749494802632069}
@@ -85,7 +85,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 850423c69e2f9894e8deb2452b0e83c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 1
+  id: 0
   prefab: {fileID: 471749494802632069}
 --- !u!1 &9200116131207686068
 GameObject:
